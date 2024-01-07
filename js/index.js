@@ -41,7 +41,7 @@ var S = {
       if (i !== -1) {
         S.UI.simulate(decodeURI(action).substring(i + 3));
       } else {
-        S.UI.simulate('|#countdown 3||祝|XXX|生日快乐|祝你|生日快乐|祝你幸福|祝你健康|前途光明|祝你|生日快乐！|#icon heart|#icon heart-empty|#icon heart');
+        S.UI.simulate('|#countdown 3||祝|我家宝宝|生日快乐|永远健康|心想事成|前途光明|LOVE|FOR|EVER！|#icon heart|#icon heart-empty|#icon heart');
       }
 
       S.Drawing.loop(function () {
@@ -522,7 +522,7 @@ S.ShapeBuilder = (function () {
   //   gap = 8;
   // }
   if ((window.innerWidth>500 && window.innerHeight>500)){
-    gap = 13;
+    gap = 8;
   }
 
   var shapeCanvas = document.createElement('canvas'),
