@@ -116,8 +116,8 @@ S.Drawing = (function () {
 
 S.UI = (function () {
   var delay1,delay2;
-  delay1 = 3000;
-  delay2 = 5000;
+  delay1 = 6000;
+  delay2 = 10000;
   var canvas = document.querySelector('.canvas'),
       interval,
       isTouch = false, //('ontouchstart' in window || navigator.msMaxTouchPoints),
